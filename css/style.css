@@ -3,7 +3,110 @@ body{
     color: #F1F7ED;
     font-family: 'Spartan', sans-serif;
 }
+.abtMe{
+    display: flex;
+    justify-content: start;
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 30%;
+    border-bottom: thin solid #DC0433;
+    margin-right: 40%;
+    border-width: 2px;
+}
+.hr hr{
+    display: flex;
+    margin-left: 28%;
+    margin-right: 40%;
+    background-color: #DC0433;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+header{
+    background-color: #DC0433;
+    height: 100px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    align-content: flex-end;
+}
+.logo img{
+    display: flex;
+    height: 70px;
+    padding-left: 100px;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    list-style-type: none;
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.content img{
+    padding-right: 25px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 1000px;
+    height: 0 auto;
+    padding-left: 300px;
+}
+
+}      
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #373738;
+    height: 50px
+}
+footer ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 400px;
+}
+.aboutMe, .work, .contact, .resume{
+    cursor: pointer;
+}
+.work, #panel{
+    text-align: center;
+    background-color: #DC0433;
+    max-width: 0 auto;
+}
+#panel{
+    padding-top: 45px;
+    display: none;
+}
 /* Flex CSS */
+.mySkills{
+    padding-bottom: 100px;
+}
 .flexContainer{
     display: flex;
     flex-direction: row;
@@ -45,7 +148,8 @@ h3{
     object-fit: contain;
     align-content: center;
     justify-content: center;
-    padding-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .workImg1{
     padding-top: 20px;
@@ -58,15 +162,15 @@ h3{
     padding-left: 50px;
 }
 .workContent1{
-    padding-left: 150px;
+    padding-left: 250px;
     padding-top: 60px
 }
 .workContent2{
-    padding-left: 150px;
+    padding-left: 250px;
     padding-top: 60px
 }
 .workContent3{
-    padding-left: 150px;
+    padding-left: 250px;
     padding-top: 60px
 }
 .viewButton{
